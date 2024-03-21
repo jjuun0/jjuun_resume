@@ -52,33 +52,34 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  미디어 아트 전시 회사에서 AI Research Engineer로, <mark>이미지 생성 AI 연구</mark>를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 
-  실제 <mark>비즈니스 모델에 적용</mark>하기 위한 <mark>모델 고도화</mark>를 수행하는데 노력합니다.
-  이외에 <mark>최신 트랜드 파악</mark>하고 <mark>커뮤니케이션 능력</mark>을 향상시키기 위해 논문 스터디, 해커톤 등에 참여하여 <mark>생성 AI의 가치를 전달하며 성장</mark>하고자 합니다.
+  - 미디어 아트 전시 회사에서 AI Research Engineer로, <mark>이미지 생성 AI 연구</mark>를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 
+  - 실제 <mark>비즈니스 모델에 적용</mark>하기 위한 <mark>모델 고도화</mark>를 수행하는데 노력합니다.
+  - 이외에 <mark>최신 트랜드 파악</mark>하고 <mark>커뮤니케이션 능력</mark>을 향상시키기 위해 논문 스터디, 해커톤 등에 참여하여 <mark>생성 AI의 가치를 전달하며 성장</mark>하고자 합니다.
 
 
 
 content:
-  - title: Projects # Title for the section
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: right
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Easywith | AI.Art team
+        sub_title: 2023.03 ~ 현재
+
+      - title: Reference Image Presets Transfer
+        sub_title: 2023.03 ~ 현재
         quote: >
-          Short overview of the project (optional)
+          Reference 색감을 입력 콘텐츠에 전달해 다양한 컨텐츠 생성
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - 연구
+            - Color encoder를 통한 reference 색감 추출 구성
+            - Color/Data augment를 통한 모델 성능 고도화
+          - 성과
+            - Content의 다양한 색감을 유지하면서 배경과 객체를 분리하며 색감 반영
+            - 비디오 프레임에 대해 일관성 있는 색상 생성 가능
+
   - title: Experience
     layout: list
     content:
