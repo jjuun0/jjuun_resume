@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   - 미디어 아트 전시 회사에서 AI Research Engineer로, <mark>이미지 생성 AI 연구</mark>를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 
   - 실제 <mark>비즈니스 모델에 적용</mark>하기 위한 <mark>모델 고도화</mark>를 수행하는데 노력합니다.
@@ -68,7 +68,8 @@ content:
         title: Easywith | AI.Art team
         sub_title: 2023.03 ~ 현재
 
-      - title: Reference Image Presets Transfer
+      - layout: top-left
+        title: Reference Image Presets Transfer
         caption: 2024.01 ~ 2024.02
         description: | # this will include new lines to allow paragraphs
           - Reference 색감을 입력 콘텐츠에 전달해 다양한 컨텐츠 생성
@@ -79,7 +80,8 @@ content:
             - Content의 다양한 색감을 유지하면서 배경과 객체를 분리하며 색감 반영
             - 비디오 프레임에 대해 일관성 있는 색상 생성 가능
 
-      - title: Custom Dataset Finetuning
+      - layout: top-left
+        title: Custom Dataset Finetuning
         caption: 2023.10 ~ 2023.11
         description: | # this will include new lines to allow paragraphs
           - 소수의 데이터 셋(작가, 캐릭터)에 대한 파인튜닝
@@ -93,8 +95,9 @@ content:
   - title: Project
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: Face Stylization
+        caption: 학부 연구생
         caption: 2022.03 ~ 2022.06
         description: | # this will include new lines to allow paragraphs
           - Reference의 스타일을 얼굴에 입혀 우수한 얼굴 스타일화 수행
@@ -107,14 +110,14 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: top-left
+        title: 한성대학교
+        sub_title: IT융합공학부
+        caption: 2016.03 ~ 2022.02
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - 학점: 4.02/4.5
+          - 수상
+          - [Visual Intelligence Lab](https://sites.google.com/view/hs-vilab) 학부 연구생(2020.10 ~ 2022.02)
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
