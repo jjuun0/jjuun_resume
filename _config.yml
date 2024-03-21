@@ -6,9 +6,9 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 이준형
+title: AI Research Engineer
+email: jh061993@gmail.com
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -19,19 +19,19 @@ website: Your website (eg. https://google.com)(optional)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  jjuun0
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jjuun0
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -52,13 +52,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  미디어 아트 전시 회사에서 AI Research Engineer로, <mark>이미지 생성 AI 연구</mark>를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 
+  실제 <mark>비즈니스 모델에 적용</mark>하기 위한 <mark>모델 고도화</mark>를 수행하는데 노력합니다.
+  이외에 <mark>최신 트랜드 파악</mark>하고 <mark>커뮤니케이션 능력</mark>을 향상시키기 위해 논문 스터디, 해커톤 등에 참여하여 <mark>생성 AI의 가치를 전달하며 성장</mark>하고자 합니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
 
 content:
   - title: Projects # Title for the section
