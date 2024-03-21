@@ -10,9 +10,9 @@ name: 이준형
 title: AI Research Engineer
 email: jh061993@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+#phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+#website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -52,9 +52,8 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  - 미디어 아트 전시 회사에서 AI Research Engineer로, <mark>이미지 생성 AI 연구</mark>를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 
-  - 실제 <mark>비즈니스 모델에 적용</mark>하기 위한 <mark>모델 고도화</mark>를 수행하는데 노력합니다.
-  - 이외에 <mark>최신 트랜드 파악</mark>하고 <mark>커뮤니케이션 능력</mark>을 향상시키기 위해 논문 스터디, 해커톤 등에 참여하여 <mark>생성 AI의 가치를 전달하며 성장</mark>하고자 합니다.
+  미디어 아트 전시 회사에서 AI Research Engineer로, **이미지 생성 AI 연구**를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 더 나아가 **서비스**에 적용하기 위해 **모델 고도화**를 수행합니다.
+  이외에 **최신 트랜드 파악**하고 **커뮤니케이션 능력을 향상**시키기 위해 논문 스터디, 해커톤 등에 참여하여 **생성 AI의 가치를 전달하며 성장**하고자 합니다.
 
 
 
@@ -65,7 +64,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Easywith | AI.Art team
+        title: AI.Art Team @ Easywith
         sub_title: 2023.03 ~ 현재
 
       - layout: top-left
@@ -97,7 +96,7 @@ content:
     content:
       - layout: top-left
         title: Face Stylization
-        caption: 학부 연구생
+        caption: 학부 프로젝트
         caption: 2022.03 ~ 2022.06
         description: | # this will include new lines to allow paragraphs
           - Reference의 스타일을 얼굴에 입혀 우수한 얼굴 스타일화 수행
@@ -107,6 +106,7 @@ content:
             - 기존 SOTA 모델 대비 IS 0.11점, LPIPS 0.02점 높은 수치 달성
             - [KCI급 대한전자공학회 등재](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002960159)
   
+
   - title: Education
     layout: list
     content:
@@ -116,14 +116,56 @@ content:
         caption: 2016.03 ~ 2022.02
         description: | # this will include new lines to allow paragraphs
           - 학점: 4.02/4.5
-          - 수상
-          - [Visual Intelligence Lab](https://sites.google.com/view/hs-vilab) 학부 연구생(2020.10 ~ 2022.02)
-  - title: A Little More About Me
+          - 수상: 학부 우수상, 코딩 챌린지 3등 
+          - [학부 연구생](https://sites.google.com/view/hs-vilab) 플렌옵틱 영상의 다수 객체 추적 연구(2020.10 ~ 2022.02) 
+          
+
+  - title: Activity
+    layout: list
+    content:
+      - layout: top-left
+        title: 2022 국방 AI 경진대회
+        sub_title: 항공 이미지 데이터를 활용한 건물 변화 탐지
+        caption: 2022.10 ~ 2023.11
+        description: | # this will include new lines to allow paragraphs
+          - 본선 진출 (8등/110팀)
+          - 데이터 분석 및 불균형 클래스 DFS 기반 CutMix augmentation
+        additional_links:
+          - title: jjuun0/MAICON
+            icon: fab fa-github
+
+      - layout: top-left
+        title: 스터디
+        sub_title: 가짜연구소 (Pseudo Lab)
+        caption: 2022.09 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          - Vision Transformer 스터디
+          - diffuers 문서 번역을 통한 [오픈소스 기여](https://github.com/huggingface/diffusers/commit/8b18cd8e7f6be0cf2904dfec4285d4ba98c5586f)
+          - text-to-image 스터디 2기, 3기
+        additional_links:
+          - title: jjuun0/text-to-image-generation
+            icon: fab fa-github
+
+      - layout: top-left
+        title: Hugging Face KREW Hackathon 2023
+        sub_title: 해커톤 참가, 발표
+        caption: 2023.11.11
+        description: | # this will include new lines to allow paragraphs
+          - Colorful 스타일의 소수 데이터 셋 구축 및 파인튜닝 진행
+          - hugging face space의 gradio demo 제공
+          - 7th PseduoCon [발표](https://www.linkedin.com/posts/jjuun0_7th-pseduocon-%EC%B0%B8%EA%B0%80-%ED%9B%84%EA%B8%B0-%EA%B0%80%EC%A7%9C%EC%97%B0%EA%B5%AC%EC%86%8C%EB%A5%BC-%EC%B2%98%EC%9D%8C-%EC%95%8C%EA%B2%8C-%EB%90%98%EC%97%88%EB%8A%94%EC%A7%80-activity-7129793325473157120-PvQt?utm_source=share&utm_medium=member_desktop) 
+        additional_links:
+          - title: jjuun0/Colorful-illustration
+            icon: fab fa-github
+
+
+  - title: How to work
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      - 팀에 긍정적인 영향을 주기 위해 독려와 칭찬합니다.
+      - 가설을 세워 효율적인 방법을 나열해 시간을 단축합니다.
+      - 실제 서비스에 적용하기 위해 부족한 부분을 팀원과 논의합니다.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
