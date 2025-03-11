@@ -52,24 +52,78 @@ linkedin_username: jjuun0
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  미디어 아트 전시 회사에서 AI Research Engineer로, **이미지 생성 AI 연구**를 통해 새롭고 다양한 컨텐츠를 창작하는 업무를 하고 있습니다. 더 나아가 **서비스**에 적용하기 위해 **모델 고도화**를 수행합니다.<br><br>
-  또한 **최신 트랜드 파악**하고 **커뮤니케이션 능력을 향상**시키기 위해 논문 스터디, 해커톤 등에 참여하여 **생성 AI의 가치를 전달하며 성장**하고자 합니다.
+  **목표를 달성하기 위해 작은 문제들로 정의하여 단계적인 접근 방식으로 문제를 해결하려고 합니다.**
+  저는 목표를 이루기 위해 큰 그림을 그리고, 이를 작고 **구체적인 문제들로 나누어 단계적으로 해결**하는 것을 중요하게 생각합니다. 어떤 일이든 처음부터 완벽하게 할 수는 없다고 믿기 때문에, 우선 해결 가능한 작은 문제로 정의하고, 이를 하나씩 해결하며 점진적으로 목표에 가까워지는 방식을 선호합니다.
 
 
 
 content:
-  - title: Work Experience # Title for the section
+  - title: 경력사항 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: AI.Art Team @ Easywith
+        title: AI.ART @ Easywith
         sub_title: 2023.03 ~ 현재
 
       - layout: top-left
+        title: K-Style
+        caption: 2024.09 ~ 2025.02
+        description: | # this will include new lines to allow paragraphs
+          **목표**
+            - 동영상을 한국화 화풍(수묵화, 수묵채색화) 스타일로 변환하는 AI 모델 개발
+            - 1920x1080 고해상도의 600 프레임 이상의 긴 동영상을 변환할 수 있는 요구사항 충족
+
+          **배경**
+            - 기존 팀의 동영상 스타일 변환 과정에서 다음과 같은 문제점이 발생
+                1. 스타일에 포함된 객체가 적절하지 않은 위치에 생성되어 품질 저하
+                2. 수묵화 스타일의 질감 및 색감 표현 부족
+
+          **1차 연구**
+            - 문제 해결을 위한 새로운 전처리 방식 개발
+                - 기존 전처리 방식의 한계
+                    - resize: 스타일 질감 손실 및 이미지 왜곡 발생
+                    - center-crop: 이미지 여백이 검출로 의미 없는 데이터 생성
+                - DINO 모델 활용
+                    - DINO의 self-attention map을 사용하여 이미지 내 객체를 정확히 구분
+                    - 객체 중심의 데이터를 추출하여 한국화 화풍에 적합한 데이터 셋 구축
+            - 스타일 변환 모델 학습 및 개선
+                - 기존 모델을 대체할 수 있는 스타일 변환 모델 선정 및 학습 진행
+                - 구축한 데이터 셋으로 학습하여 한국화 화풍이 잘 표현된 결과 확인
+
+          **2차 연구**
+            - 개발한 스타일 변환 모델을 AI 생성 플랫폼(ComfyUI)의 노드로 개발
+            - 고해상도와 긴 동영상에서도 안정적으로 변환 가능한 워크플로우 구현
+            - 이를 기존 콘텐츠 제작 환경에 적용하여 실질적인 활용 가능성을 검증
+
+          **결과**
+            - 한국화 화풍(수묵화, 수묵채색화)을 적용한 동영상 스타일 변환 AI 모델 개발
+            - 1920x1080 고해상도 및 긴 동영상에서도 자연스러운 결과물 생성 가능
+            - 인천 스타트업 프로젝트의 AI 콘텐츠 제작에 활용되는 실질적 성과 도출
+
+      - layout: top-left
+        title: PopArt
+        caption: 2024.07 
+        description: | # this will include new lines to allow paragraphs
+          **목표**
+            - 기존 AI 생성 모델의 성능을 기반으로 스타일 변환 기능을 추가하여 기술력 강화
+
+          **연구 내용**
+            - 모델 탐색 및 아이디어 제안
+                - 성능이 우수한 최신 AI 이미지 생성 모델을 탐색하여 AI 얼굴 생성 모델을 선정
+                - 특정 스타일 입력을 통해 스타일 변환이 가능하도록 아이디어 제안
+            - 스타일 변환 기능 개발
+                - AI 얼굴 생성 모델에 스타일 변환 기능을 기술적으로 추가할 수 있는 모델 탐색 및 코드 개발
+
+          **결과**
+            - AI 얼굴 생성 모델에 스타일 변환 기능을 개발하여 차별적이고 매력적인 AI 모델을 개발함
+            - Docker 기반으로 온라인 서비스화하였고, ISE 2025 LG 부스에서 모바일과 연동된 인터렉티브 체험 콘텐츠로 활용
+
+
+      - layout: top-left
         title: Reference Image Presets Transfer
-        caption: 2024.01 ~ 2024.02
+        caption: 2024.01 ~ 2024.04
         description: | # this will include new lines to allow paragraphs
           **Reference 색감을 입력 content에 전달해 다양한 컨텐츠 생성**
           - 연구
@@ -80,15 +134,29 @@ content:
             - 비디오 프레임에 대해 일관성 있는 색감 생성 가능
 
       - layout: top-left
-        title: Custom Dataset Finetuning
-        caption: 2023.10 ~ 2023.11
+        title: K-Face
+        caption: 2023.10
         description: | # this will include new lines to allow paragraphs
-          **소수의 데이터 셋(작가, 캐릭터)에 대한 파인튜닝**
-          - 연구
-            - SDXL 1.0 기반 dreambooth와 lora 활용
-          - 성과
-            - 스타일, 질감을 일관성 있게 생성 가능
-            - 여러 모델의 결합으로 새로운 콘텐츠(이미지/비디오) 생성 가능
+          **목표**
+            - 한국인 모습을 일관적으로 생성하는 모델 개발
+
+          **배경**
+            - 한국인스럽지 못한 중국풍의 얼굴 모습으로 생성되는 문제
+            - 오픈소스에 한국인 생성 모델이 존재하지 않았음
+
+          **연구 내용**
+            - 데이터 셋 구축
+                - 한국인 중년 배우 최민식 선정 및 이미지 크롤링
+                - 최민식 얼굴 모습이 잘 나타나 있는 극중/현대 이미지 24장 선정 및 캡션 구축
+            - 학습
+                - 소수의 수량으로 학습 가능한 LoRA 학습 방식 채택
+                - SDXL 기반으로 학습 진행
+                    - LoRA rank 수, 데이터를 변경하면서 진행
+                - 일관적으로 최민식 얼굴 모습이 잘 유지되면서, 프롬프트에 맞게 표현되었음
+
+          **결과**
+            - 우수한 한국인 생성 모델 개발하여 중국풍으로 생성되었던 문제 해결함
+            - 학습 노하우를 기반하여 다양한 인물 및 스타일 학습을 진행
       
 
   - title: Project
@@ -158,18 +226,6 @@ content:
           - title: jjuun0/Colorful-illustration
             icon: fab fa-github
 
-
-  - title: How to work
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - 팀에 긍정적인 영향을 주기 위해 독려와 칭찬합니다.
-      - 가설을 세워 효율적인 방법을 나열해 시간을 단축합니다.
-      - 실제 서비스에 적용하기 위해 부족한 부분을 팀원과 논의합니다.
-      
-additional_links:
-- title: Pdf Download
-  icon: far fa-file-pdf
-  url: https://<domain>/resources/cv.pdf
 
 # Footer
 footer_show_references: true
